@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuredatafactoryz001"
+		},
+		"LS_ADLS2_accountKey": {
+			"value": ""
+		},
+		"LS_blob_connectionString": {
+			"value": ""
+		},
+		"LS_sql_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS2_properties_typeProperties_url": {
+			"value": "https://adlsstoragegen2.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/7a6fdc9f-d817-4cd0-8929-ec2d2149fb8a/resourceGroups/TestRG/providers/Microsoft.Storage/storageAccounts/adl2blobstorage"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
