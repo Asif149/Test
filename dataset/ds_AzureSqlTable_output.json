@@ -1,0 +1,38 @@
+{
+	"name": "ds_AzureSqlTable_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Row ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Order ID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Order Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Ship Date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "lastmodified",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo.",
+			"table": "sales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
